@@ -51,3 +51,9 @@ Thanks to [Earth View Team](https://earthview.withgoogle.com/) for providing suc
 Data gathered from [Earth View](https://earthview.withgoogle.com/) falls under Google's copyright. Images are subject to the copyright of their respective owners.
 
 Please respect these copyrights when using this content.
+
+## 🧑‍💻 Other Apps
+
+Check out:
+
+- [Our World](https://ourworld.center/apps) (Official Website)
