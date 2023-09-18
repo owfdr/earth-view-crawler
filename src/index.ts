@@ -2,21 +2,21 @@ import fs from "fs";
 import axios from "axios";
 import * as cheerio from "cheerio";
 
-const parsed: any[] = [];
-
 const random = (min: number, max: number) => {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 
-const haveSomeEtiquette = new Promise((resolve) =>
+const goodManner = new Promise((resolve) =>
   setTimeout(resolve, random(100, 300))
 );
+
+const parsed: any[] = [];
 
 const url = "https://earthview.withgoogle.com/";
 
 async function parse(start: number, end: number) {
   for (let index = start; index <= end; index++) {
-    await haveSomeEtiquette;
+    await goodManner;
 
     try {
       const response = await axios.get(url + index);
